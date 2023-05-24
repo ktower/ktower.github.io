@@ -1,0 +1,46 @@
+site_name: "Kevin's Github Site"
+site_url: https://ktower.github.io
+repo_name: Site Git Repo
+repo_url: https://github.com/ktower
+#edit_uri:
+nav:
+  - Home: index.md
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+
+markdown_extensions:
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.marks
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tilde
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+

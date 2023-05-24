@@ -1,0 +1,12 @@
+## If you want to enable mkdoc jupyter notebook
+# mkdocs-jupyter
+# ipykernel
+# ipywidgets
+## If your jupyter notebook requires other modules
+# pandas
+# plotly
+mkdocs-code-validator
+mkdocs-git-revision-date-localized-plugin
+mkdocs-material
+mkdocs-minify-plugin
+mkdocs-redirects
