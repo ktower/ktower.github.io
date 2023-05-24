@@ -1,0 +1,6 @@
+{
+	"ansible.python.interpreterPath": "/usr/bin/python3",
+	"yaml.customTags": [
+		"tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format scalar"
+	}
+}

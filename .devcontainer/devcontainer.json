@@ -1,0 +1,15 @@
+{
+	"name": "mkdocs-vscode",
+	"image": "python:3.10-bullseye",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"redhat.vscode-yaml",
+				"davidanson.vscode-markdownlint"
+			]
+		}
+	},
+	"forwardPorts": [8000],
+	"postCreateCommand": "pip install --upgrade -r requirements.txt"
+}
