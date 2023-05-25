@@ -1,8 +1,8 @@
 site_name: "Kevin's Github Site"
 site_url: https://ktower.github.io
 repo_name: Site Git Repo
-repo_url: https://github.com/ktower.github.io
-#edit_uri:
+repo_url: https://github.com/ktower/ktower.github.io
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
 theme:
