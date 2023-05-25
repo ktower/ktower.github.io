@@ -1,7 +1,7 @@
 site_name: "Kevin's Github Site"
 site_url: https://ktower.github.io
 repo_name: Site Git Repo
-repo_url: https://github.com/ktower
+repo_url: https://github.com/ktower.github.io
 #edit_uri:
 nav:
   - Home: index.md
@@ -31,7 +31,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.keys
-  - pymdownx.marks
+  - pymdownx.mark
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
