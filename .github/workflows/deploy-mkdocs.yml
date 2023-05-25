@@ -12,4 +12,4 @@ jobs:
         with:
           python-version: "3.10"
       - run: pip install --upgrade -r requirements.txt
-      - run: mkdocs gh-deploy --clean --verbose
+      - run: mkdocs gh-deploy --force --clean --verbose
