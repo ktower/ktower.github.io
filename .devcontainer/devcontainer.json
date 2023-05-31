@@ -1,6 +1,6 @@
 {
 	"name": "mkdocs-vscode",
-	"image": "python:3.10-bullseye",
+	"image": "python:3.11-bullseye",
 
 	"customizations": {
 		"vscode": {
@@ -11,5 +11,5 @@
 		}
 	},
 	"forwardPorts": [8000],
-	"postCreateCommand": "pip install --upgrade -r requirements.txt"
+	"postCreateCommand": "pip install --upgrade pip && pip install --upgrade -r requirements.txt"
 }
